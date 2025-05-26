@@ -18,7 +18,7 @@ class Solution {
     public class Main{
         public static void main(String[] args){
             Solution solution = new Solution();
-            int[] nums = {1, 3, 5, 6};
+            int[] nums = {4, 6, 5, 7};
             int target = 5;
             System.out.println("Insert postion of target:" + solution.searchInsert(nums, target));
         }
